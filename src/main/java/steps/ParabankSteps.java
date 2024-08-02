@@ -29,17 +29,17 @@ public class ParabankSteps {
     public void theUserRegisters() {
         response = given()
                 .contentType("application/x-www-form-urlencoded")
-                .formParam("customer.firstName", "John")
-                .formParam("customer.lastName", "Doe")
-                .formParam("customer.address.street", "123 Main St")
-                .formParam("customer.address.city", "Anytown")
-                .formParam("customer.address.state", "NY")
+                .formParam("customer.firstName", "ismail")
+                .formParam("customer.lastName", "saleh")
+                .formParam("customer.address.street", "4 Maadi Street")
+                .formParam("customer.address.city", "Cairo")
+                .formParam("customer.address.state", "CA")
                 .formParam("customer.address.zipCode", "12345")
-                .formParam("customer.phoneNumber", "1234567890")
-                .formParam("customer.ssn", "123-45-6789")
-                .formParam("customer.username", username)
-                .formParam("customer.password", password)
-                .formParam("repeatedPassword", password)
+                .formParam("customer.phoneNumber", "1151279456")
+                .formParam("customer.ssn", "51236")
+                .formParam("customer.username", ismail321)
+                .formParam("customer.password", 12345)
+                .formParam("repeatedPassword", 12345)
                 .post("/register.htm");
     }
 
