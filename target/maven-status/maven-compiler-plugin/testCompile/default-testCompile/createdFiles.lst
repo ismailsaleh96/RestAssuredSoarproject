@@ -1,0 +1,9 @@
+TestLoginAPI.class
+Status.class
+TestRegisterAPI.class
+CommonRequests.class
+TestScenario.class
+UserBaseTestStrategy.class
+SimpleRestClient.class
+TestRunner.class
+PetBaseTestStrategy.class
