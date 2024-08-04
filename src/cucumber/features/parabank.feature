@@ -1,6 +1,6 @@
 Feature: Sample feature to test Register and Login by Cucumber RestAssured and TestNG
 
-  Scenario: Successful registration and login for Parabank
+  Scenario: User has Successful registration and login for Parabank
 
    Given a user with valid registration data
     When the user registers
